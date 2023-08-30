@@ -1,0 +1,122 @@
+/* src/styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  padding: 2rem;
+  text-align: center;
+}
+
+.posts {
+  padding: 2rem;
+}
+
+.posts h2 {
+  margin-bottom: 1rem;
+}
+
+.post {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-content {
+  font-size: 1rem;
+}
+
+.profile {
+  padding: 2rem;
+}
+
+.form {
+  margin: 1rem 0;
+}
+
+.button {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.message-list {
+  list-style: none;
+  padding: 0;
+}
+
+.message {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.message-content {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.message-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.message-sender {
+  font-weight: bold;
+}
+
+.logout-button {
+  background-color: #d9534f;
+}
+
+.logout-button:hover {
+  background-color: #c9302c;
+}
